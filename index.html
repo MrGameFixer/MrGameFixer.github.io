@@ -18,11 +18,23 @@
     header {
       margin-bottom: 40px;
     }
+    
+    header a,
+    header a:hover,
+    header a:visited,
+    header a:active {
+       text-decoration: none;
+    }
 
     header img {
+      transition: opacity 0.2s;
       width: 200px;
       vertical-align: middle;
       margin-right: -20px;
+    }
+
+    header img:hover {
+       opacity: 0.8;
     }
 
     h1 {
@@ -120,6 +132,7 @@ td:first-child {
 
 <div class="request-box">
   <a href="https://www.patreon.com/MrGameFixer/membership" target="_blank" rel="noopener noreferrer" class="request-btn">Request a Game Fix</a>
+  <a href="supporters.html" class="request-btn" >Supporters ♥</a>
 </div>
 
   <table>
